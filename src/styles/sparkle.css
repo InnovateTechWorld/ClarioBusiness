@@ -1,0 +1,32 @@
+@keyframes sparkle {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.sparkle-text {
+  background: linear-gradient(
+    90deg,
+    #22c55e 0%,
+    #10b981 25%,
+    #ffffff 35%,
+    #10b981 45%,
+    #22c55e 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: sparkle 5s ease infinite;
+}
+
+.navbar-blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
