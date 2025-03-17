@@ -18,9 +18,9 @@ import {
 } from '@heroicons/react/24/solid';
 
 const navigation = [
-  { name: 'Dashboard', href: '.', icon: ChartBarIcon },
+  
   { name: 'Products', href: 'products', icon: CubeIcon },
-  { name: 'Orders', href: 'orders', icon: ShoppingBagIcon },
+  
   { name: 'Inventory', href: 'inventory', icon: ClipboardDocumentListIcon },
   { name: 'Analytics', href: 'ranalytics', icon: ChartBarIcon },
   { name: 'Manufacturers', href: 'manufacturers', icon: BuildingStorefrontIcon },

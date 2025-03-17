@@ -19,6 +19,8 @@ import Reports from './pages/dashboard/manufacturer/Reports';
 import AuthLayout from './pages/auth/AuthLayout';
 import Ranalytics from './pages/dashboard/retailer/Analytics';
 import ManufacturerConnect from './pages/dashboard/retailer/ManufacturerConnect';
+import Promotions from './pages/dashboard/manufacturer/Promotions';
+import Feedback from './pages/dashboard/manufacturer/Feedback';
 import { Features } from './components/Features';
 
 const AuthLayoutWrapper = () => (
@@ -50,6 +52,9 @@ const routes = createRoutesFromElements(
       <Route path="analytics" element={<Analytics />} />
       <Route path="products" element={<ProductManagement />} />
       <Route path="reports" element={<Reports />} />
+      <Route path="promotions" element={<Promotions />} />
+      <Route path="feedback" element={<Feedback />} />
+
     </Route>
   </>
 );
