@@ -22,6 +22,7 @@ import ManufacturerConnect from './pages/dashboard/retailer/ManufacturerConnect'
 import Promotions from './pages/dashboard/manufacturer/Promotions';
 import Feedback from './pages/dashboard/manufacturer/Feedback';
 import { Features } from './components/Features';
+import WaitlistPage from './pages/WaitlistPage';
 
 const AuthLayoutWrapper = () => (
   <AuthLayout 
@@ -39,6 +40,7 @@ const routes = createRoutesFromElements(
     <Route path="/auth" element={<AuthLayoutWrapper />}>
       <Route path="signup" element={<SignUp />} />
       <Route path="signin" element={<SignIn />} />
+      <Route path="waitlist" element={<WaitlistPage />} />
     </Route>
     <Route path="/dashboard/retailer" element={<RetailerDashboard />}>
       <Route path="orders" element={<OrderHistory />} />

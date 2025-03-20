@@ -92,7 +92,7 @@ export function Navbar({ isNavbarVisible }: NavbarProps) {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Link
-                      to="/auth/signin"
+                      to="/auth/waitlist"
                       className="text-sm lg:text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-emerald-200 hover:from-green-200 hover:to-emerald-100 transition-all duration-300"
                     >
                       Sign In
@@ -103,7 +103,7 @@ export function Navbar({ isNavbarVisible }: NavbarProps) {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Link
-                      to="/auth/signup"
+                      to="/auth/waitlist"
                       className="inline-flex items-center justify-center px-4 lg:px-6 py-2 lg:py-2.5 text-sm lg:text-base font-medium text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 border border-green-500/20"
                     >
                       Get Started
@@ -154,7 +154,7 @@ export function Navbar({ isNavbarVisible }: NavbarProps) {
                   ))}
                   <motion.div whileHover={{ scale: 1.02, x: 5 }} whileTap={{ scale: 0.98 }}>
                     <Link
-                      to="/auth/signin"
+                      to="/auth/waitlist"
                       className="block px-3 py-2 text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-emerald-200 hover:from-green-200 hover:to-emerald-100 transition-all duration-300"
                       onClick={() => setIsOpen(false)}
                     >
@@ -163,7 +163,7 @@ export function Navbar({ isNavbarVisible }: NavbarProps) {
                   </motion.div>
                   <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                     <Link
-                      to="/auth/signup"
+                      to="/auth/waitlist"
                       className="block w-full px-5 py-3 mt-4 text-center font-medium text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 border border-green-500/20"
                       onClick={() => setIsOpen(false)}
                     >

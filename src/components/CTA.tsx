@@ -41,7 +41,7 @@ export function CTA({ inView }: CTAProps) {
               className="flex flex-wrap gap-6"
             >
               <Link
-                to="/auth/signup"
+                to="/auth/waitlist"
                 className="group inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 border border-green-500/20"
               >
                 Get Started Now
@@ -59,7 +59,7 @@ export function CTA({ inView }: CTAProps) {
                 </motion.span>
               </Link>
               <Link
-                to="/auth/signin"
+                to="/auth/waitlist"
                 className="inline-flex items-center px-8 py-3.5 text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-emerald-200 hover:from-green-200 hover:to-emerald-100 transition-all duration-300 border border-green-500/10 rounded-full hover:border-green-500/30"
               >
                 Sign In
