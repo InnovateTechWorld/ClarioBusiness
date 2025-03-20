@@ -32,7 +32,7 @@ export function Hero() {
               className="flex flex-wrap gap-4 sm:gap-6"
             >
               <Link
-                to="/auth/signup"
+                to="/auth/waitlist"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-3.5 text-sm sm:text-base font-medium text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 border border-green-500/20"
               >
                 Get Started Today
