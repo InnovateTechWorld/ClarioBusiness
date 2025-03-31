@@ -15,7 +15,7 @@ export function Hero() {
               transition={{ duration: 0.8 }}
               className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 lg:mb-8 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-emerald-200"
             >
-              Empowering Brands across Africa
+              Empowering Brands across  Africa
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
