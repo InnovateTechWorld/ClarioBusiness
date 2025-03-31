@@ -23,7 +23,7 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-base sm:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed font-light max-w-2xl"
             >
-              Your trusted platform for documenting , managing, and delivering reliable product information across Africa. Build your brand's digital presence with confidence.
+              Your trusted platform for documenting ,  managing, and delivering reliable product information across Africa. Build your brand's digital presence with confidence.
             </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
