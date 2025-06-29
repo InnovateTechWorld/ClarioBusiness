@@ -27,7 +27,7 @@ const retailerNavItems = [
 ];
 
 const manufacturerNavItems = [
-  { name: 'Dashboard', icon: HomeIcon, path: '/dashboard/manufacturer' },
+  { name: 'Dashboard', icon: HomeIcon, path: '/dashboard/manufacturer/analytics' },
   { name: 'Products', icon: ShoppingBagIcon, path: '/dashboard/manufacturer/products' },
   { name: 'Analytics', icon: ChartBarIcon, path: '/dashboard/manufacturer/analytics' },
   { name: 'Promotions', icon: TagIcon, path: '/dashboard/manufacturer/promotions' },

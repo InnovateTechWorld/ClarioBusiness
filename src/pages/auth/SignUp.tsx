@@ -96,9 +96,9 @@ const SignUp = () => {
       
       // Redirect based on account type
       if (accountType === 'brand') {
-        navigate('/dashboard/manufacturer');
+        navigate('/dashboard/manufacturer/analytics');
       } else {
-        navigate('/dashboard/retailer');
+        navigate('/dashboard/retailer/products');
       }
     }
   };
